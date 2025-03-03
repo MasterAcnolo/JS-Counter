@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type">
+    <title>Document</title>
+
+    <script> 
+        function countToTen(){
+            var count = 0;
+            const NUMBER = 1000; // Number of repetitions
+
+            while (count < NUMBER ){ // Change the NUMBER by the number of number you want 
+                count ++;
+                document.getElementById("theCount").innerHTML += count + "<br>"; 
+            }
+        }
+
+    </script>
+
+</head>
+<body onload="countToTen();">
+    <p id="theCount"></p>
+</body>
+</html>
