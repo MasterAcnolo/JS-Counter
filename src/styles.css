@@ -1,0 +1,17 @@
+html{
+    background-color: black;
+
+}
+
+.text{
+
+    color: aliceblue;
+    font: bold;
+    font-family: calibri;
+    font-size: 200%;
+    
+}
+#theCount{
+    color: aliceblue;   
+    
+}

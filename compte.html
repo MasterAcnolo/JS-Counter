@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type">
     <title>CountToX</title>
-        <div class="text">
+       
 
-            Liste des nombres de 0 à X
-
-
-        </div>
-    <script> 
-        function countToTen(){
-            var count = 0;
-            const NUMBER = 1000; // Number of repetitions
-
-            while (count < NUMBER ){ // Change the NUMBER by the number of number you want 
-                count ++;
-                document.getElementById("theCount").innerHTML += count + "<br>"; 
-            }
-        }
-
-    </script>
-
-    <style>
-
-        html{
-            background-color: black;
-
-        }
-
-        .text{
-
-            color: aliceblue;
-            font: bold;
-            font-family: calibri;
-            font-size: 200%;
-            
-        }
-        #theCount{
-            color: aliceblue;   
-            
-        }
-
-    </style>
+    <link rel="stylesheet" href="src/styles.css">
+   
 </head>
+
+<script>
+    function countToTen(){
+        var count = 0;
+        const NUMBER = 100; // Number of repetitions, change it to write more INT Number
+
+        while (count < NUMBER ){ 
+             document.getElementById("theCount").innerHTML += count + "<br>"; 
+        }
+    }
+
+</script>
+
 <body onload="countToTen();">
+    
+
+    <div class="text">
+
+        Liste des nombres de 0 à X
+
+
+    </div>
+
+
+    
+
     <p id="theCount"></p>
 </body>
 </html>
+
