@@ -1,17 +1,18 @@
-html{
+/* html{
     background-color: black;
 
-}
+} */
 
-.text{
+.text {
 
-    color: aliceblue;
+    /* color: aliceblue; */
     font: bold;
     font-family: calibri;
     font-size: 200%;
-    
+
 }
-#theCount{
+
+/* #theCount{
     color: aliceblue;   
     
-}
+} */
