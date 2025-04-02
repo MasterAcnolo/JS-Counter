@@ -8,27 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type">
 
     <title>CountToX</title>
-    <!-- <link rel="stylesheet" href="src/styles.css"> -->
-
-
-    <script>
-
-        function countToTen() {
-            var countnumber = 0;
-            const NUMBER = 10; // Number of repetitions, change it to write more INT Number
-
-            while (countnumber < NUMBER) {
-                document.getElementById("theCount").innerHTML += countnumber + "<br>";
-            }
-        }
-
-    </script>
-
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 
 
 
-<body onload="countToTen()">
+<body onload=countToTen()>
 
 
     <div class="text">
@@ -38,10 +23,23 @@
 
     </div>
 
-    <div id="theCount"></div>
+    <p id="theCount"></p>
 
+    <!-- <script>
 
+        function countToTen() {
+            var count = 0;
+            const NUMBER = 100; // Number of repetitions, change it to write more INT Number
+            
+            while (count < NUMBER + 1) {
+                document.getElementById("theCount").innerHTML += count + "<br>";
+                count ++;
+            }
+        }
+
+    </script> -->
 
 </body>
 
+<script src="src/script.js"></script>
 </html>
